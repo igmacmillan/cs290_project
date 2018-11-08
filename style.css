@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=lato');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
+body {
+	font-family: work sans, sans-serif;
+	font-size: 16px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;}
+.title {
+	font-family:Advent Pro;
+	font-size: 32px;
+	text-align: center;}
+.spiritName {
+	margin-top: 50px;
+	margin-bottom: -5px;
+	font-size: 18px;}
+.logo {
+	font-family: Poiret One;
+	font-weight:100;
+	font-size: 40px;}
+.description {
+	margin-top: -10px;}
+nav{
+	background-color: #47463e;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	}
+li a{
+	padding: 16px 18px;
+	color: #ffffff;
+	text-decoration: none;}
+li a:hover {
+  background-color: #f2f1e6;
+  color: #000000;
+  text-decoration: none;}
+.home, .spirits, .recipes, .tools {
+	 display: inline;
+	 padding-left: 6.75%;
+	 padding-right: 6.75%;
+	 }
