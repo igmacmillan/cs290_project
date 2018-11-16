@@ -1,0 +1,50 @@
+#comments{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-color: #ffffff;
+}
+
+fieldset{
+	border-radius: 2px;
+
+}
+
+legend{
+	padding: 5px 5px 5px 5px;
+	font-weight: 900;
+}
+.field{
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.fieldName{
+	float: left;
+	width: 125px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input[type="submit"]{
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 2px;
+	padding: 10px;
+	margin-top: 10px;
+}
+input[type="submit"]:hover{
+	cursor: pointer;
+	border: 1px solid #6b6d6b;
+	background-color: #6b6d6b;
+	color: #ffffff;
+	border-radius: 2px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+
+#feedback{
+	width: 80%;
+	text-align: left;
+}

@@ -2,44 +2,110 @@
 	<html>
 		<head>
 			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 			<title>A Gentle Person's Guide to Spirits</title>
+						
+			<!-- CSS -->
 			<link href="style.css" type="text/css" rel="stylesheet" />
+			<link href="carousel.css" type="text/css" rel="stylesheet"/>
+			<link href="feedback.css" type="text/css" rel="stylesheet"/>
 		</head>
 		
 		<body>
-			<h1 class="logo">A Gentle Person's Guide to Spirits</h1>
-			<span id="carousel"></span>
-			<nav>
+			<!-- Logo Text & Nav Menu -->
+			<div class="header">
+				<!-- Logo -->
+				<h1 class="logo">A Gentle Person's Guide to Spirits</h1>
+				<span id="carousel"></span>
+				
+				<!-- Navigation Menu -->
+				<div class="nav">
 				<ul>
-					<li class="home"><a href="homepage.html">Home</a></li>
-					<li class="spirits"><a href="spirits.html">Spirits</a></li>
-					<li class="recipes"><a href="recipes.html">Recipes</a></li>
-					<li class="tools"><a href="tools.html">Tools</a></li>
+					<li class="navButton"><a href="homepage.html">Home</a></li>
+					<li class="navButton"><a href="spirits.html">Spirits</a></li>
+					<li class="navButton"><a href="tools.html">Tools</a></li>
+					<li class="navButton"><a href="recipes.html">Recipes</a></li>
 				</ul>
-			</nav>
-			<main>
-				<p class="header">Mission:</p>
-				<div class="text">
-				The purpose of this site is to pass along my enjoyment of spirits. This site is by no means meant to 
-				illustrate the "correct" or "proper" way to enjoy a spirit. As a famous fake internet judge says: "People like 
-				what they like". 
 				</div>
-				<div class="text">
+			</div>
+
+			<!-- Slideshow Carousel -->
+			<div class="carousel">
+				<div class="slides transition">
+					<img class="images" src="images/spiritsPage.jpg">
+					<div class="caption">Spirits</div>
+				</div>
+				<div class="slides transition">
+					<img class="images"src="images/spirit.jpg">
+					<div class="caption">Tools & Glasses</div>
+				</div>
+				<div class="slides transition">
+					<img class="images" src="#">
+					<div class="caption">Recipes</div>
+				</div>
+				<!-- next and prev buttons-->
+				<a id="prev">&#10094;</a>
+				<a id="next">&#10095;</a>
+			</div>
+			<!--slide dots-->
+			<div style="text-align:center">
+			  <span class="dot" id="dotOne"></span> 
+			  <span class="dot" id="dotTwo"></span> 
+			  <span class="dot" id="dotThree"></span> 
+			</div>
+
+			<div class="sidebar">
+			</div>
+
+			<!-- main page content-->
+			<div class="main homepage">
+				<h3>Mission:</h3>
+				<p>
+				The purpose of this site is to share my enjoyment of and limited, some would say extremley so, knowledge of spirits. This site is by no means meant to 
+				convey the "correct" or "proper" way to enjoy a spirit. As a famous fake internet judge says: "People like 
+				what they like". 
+				</p>
+				<p>
 				To further this sites purpose feedback is included right on the homepage. If you have suggestions related to design or content, or if you 
 				just want to pass along well wishes please feel free to provide those here. I only ask that you keep the suggestions civil and that they would 
 				be constructive suggestions you would want to hear in my place.
-				</div>
+				</p>
 				<form id="comments">
 					<fieldset>
 						<legend>
-							Feedback
+							Share Your Thoughts
 						</legend>
-						<textarea rows="4" cols="40" id="feedback"></textarea>
+						<div class="field">
+							<label class="fieldName">First Name:</label>
+							<input type="text" name="firstName">
+						</div>
+						<div class="field">
+							<label class="fieldName">Last Name:</label>
+							<input type="text" name="lastName">
+						</div>
+						<div class="field">
+							<label class="fieldName">Email:</label>
+							<input type="email" name="email">
+						</div>
+						<div class="field">
+							<label class="fieldName">Feedback:</label>
+							<textarea class="fieldName" rows="6" cols="80" id="feedback"></textarea>
+						</div>
+						<div class="submit fieldName">
+							<input type="submit" value="Submit"/>
+						</div>
 					</fieldset>
 				</form>
-			</main>
-			<footer>
-			While there is no right way to enjoy an adult beverage, if you or someone you know is abusing alcohol please seek help.
-			<a href="https://www.samhsa.gov/find-help/national-helpline" class="help" target="_blank">Substance Abuse and Mental Health Services Administration</a>
+			</div>
+			
+			<!-- Footer -->
+		<footer>
+			<div class="footerText">
+				<p>While there is no right way to enjoy an adult beverage, if you or someone you know enjoys in excess please seek help.<br/>
+				<a id="help" href="https://www.samhsa.gov/find-help/national-helpline" class="help" target="_blank"><strong>Substance Abuse and Mental Health Services Administration</strong></a></p>
+				<p>"No one is immune from addiction; it afflicts people of all ages, races, classes, and professions." - <em>Patrick J. Kennedy</em></p>
+			</div>
+		</footer>
+		<script src="carousel.js"></script>	
 		</body>
 	</html>
