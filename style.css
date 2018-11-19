@@ -84,6 +84,8 @@ body {
 }
 .sidebarImage{
 	width: 75%;
+	margin-top: 40px;
+	border-radius: 2px;
 }
 .title {
 	//font-family:Advent Pro;
@@ -93,7 +95,8 @@ body {
 	text-align: center;
 	padding-top: 0px;
 	margin-top: 0px;
-	color: #383d38;
+	//color: #383d38;
+	color: #686d69;
 }
 .navButton a{
 	padding-left: 16px;
@@ -153,4 +156,24 @@ p{
 
 #drinkingSong, #beDrunk{
 	margin-top:25px;
+}
+
+#whiskeyImg{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.toolImg{
+	width:30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#toolsImg #glassImg{
+	width: 100%;
+}
+
+#glassImg{
+	margin-top: 20px;
 }
