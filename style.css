@@ -41,6 +41,17 @@ body {
 	color: #ffffff;
 	float: left;
 	padding-left: 60px;
+	text-decoration: none;
+}
+.logo:hover {
+	font-family: Poiret One;
+	font-weight:100;
+	font-size: 40px;
+	color: #ffffff;
+	float: left;
+	padding-left: 60px;
+	text-decoration: none;
+	cursor:pointer;
 }
 .nav{
 	float: right;
@@ -54,7 +65,7 @@ body {
 	display: inline;
 }
 .main{
-	margin-top: 150px;
+	margin-top: 125px;
 	margin-bottom: 40px;
 	//background-image: url("images/whiskey.jpg");
 	width: 50%;

@@ -2,7 +2,6 @@
 function setUp(event){
 	let text = document.getElementsByClassName("booze");
 	for(let i = 0; i < text.length; i++){
-	  	console.log(text[i]);
 	  	 text[i].style.display='none';
   	}
 }

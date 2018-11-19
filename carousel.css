@@ -1,9 +1,11 @@
-/*Some logic taken from https://www.w3schools.com/w3css/w3css_slideshow.asp*/
+/*Some element designs taken from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 
 .carousel{
   max-width: 50%;
   position: relative;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
 }
 .slides {
     display: none;
@@ -41,13 +43,13 @@
 
 /* Caption text */
 .caption {
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: right;
 }
 /* The dots/bullets/indicators */
 .dot {

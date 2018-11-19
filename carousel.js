@@ -27,7 +27,7 @@ function thirdDot(){
 }
 
 /*advances slides 
-Some logic taken from https://www.w3schools.com/w3css/w3css_slideshow.asp*/
+Some logic taken from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 function showSlide(x){
   var dots = document.getElementsByClassName("dot");
   if (x > (selector.length - 1)) 
