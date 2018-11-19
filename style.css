@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Poller+One');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
 * {
   box-sizing: border-box;
@@ -15,27 +16,24 @@ padding: 0;
 .header{
 	background-color: #000000;
 	padding: 0% 0% 0% 0%;
-	//margin: 1%;
 	position: fixed;
 	top: 0%;
 	left: 0%;
 	width:100%;
 	height: 100px;
 	z-index: 10;
-	//margin-bottom: 2%;
 }
-
 body {
 	font-family: work sans, sans-serif;
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
-	}
-
+}
 .sectionTitle {
 	margin-top: 20px;
 	//margin-bottom: -10px;
-	font-size: 18px;}
+	font-size: 18px;
+}
 .logo {
 	font-family: Poiret One;
 	font-weight:100;
@@ -43,33 +41,27 @@ body {
 	color: #ffffff;
 	float: left;
 	padding-left: 60px;
-	//overflow: hidden;
 }
-.description {
-	//margin-top: -10px;}
 .nav{
 	float: right;
 	//padding: 1.25em% 5em 0% 0%;
 	//padding-right:5em;
 	padding: 26px 60px 0px 0px;
 	text-align: right;
-	//overflow: hidden;
+	overflow: hidden;
 }
 .navButton{
 	display: inline;
 }
-
-
 .main{
 	margin-top: 150px;
-	//margin-bottom: 20px;
+	margin-bottom: 40px;
 	//background-image: url("images/whiskey.jpg");
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
 	float: left;
 }
-
 .homepage{
 	margin-top: 10px;
 }
@@ -83,13 +75,15 @@ body {
 	width: 75%;
 }
 .title {
-	font-family:Advent Pro;
+	//font-family:Advent Pro;
+	font-family: Cormorant Garamond, serif;
+	font-weight: 900;
 	font-size: 32px;
 	text-align: center;
 	padding-top: 0px;
 	margin-top: 0px;
+	color: #383d38;
 }
-
 .navButton a{
 	padding-left: 16px;
 	padding-right: 16px;
@@ -106,7 +100,6 @@ body {
 	padding-right:15px;*/
 	text-decoration: none;
  }
-
  .footerText{
 	width:75%;
 	margin-left: auto;
@@ -128,19 +121,25 @@ footer{
 	padding-bottom: 20px;
 	border-top-width: 4px;
 	border-top-style: ridge;
-	/*border-right: 0px;
-	border-left: 0px;
-	border-bottom: 0px;*/
 	font-size:14px;
 	font-weight: lighter;
 }
-
 #help{
 	text-decoration: none;
 	color: #6b6d6b;
 }
-
 p{
 	margin-top: .5em;
 	margin-bottom: .5em;
+}
+#poems{
+	height: 350px;
+	overflow-y: scroll;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#drinkingSong, #beDrunk{
+	margin-top:25px;
 }

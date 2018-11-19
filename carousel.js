@@ -26,7 +26,8 @@ function thirdDot(){
   showSlide(index = 2);
 }
 
-/*advances slide*/
+/*advances slides 
+Some logic taken from https://www.w3schools.com/w3css/w3css_slideshow.asp*/
 function showSlide(x){
   var dots = document.getElementsByClassName("dot");
   if (x > (selector.length - 1)) 
@@ -47,10 +48,11 @@ function showSlide(x){
   dots[index].className += " active";
 }
 
+
+/*Event Listeners*/
 document.addEventListener("DOMContentLoaded", function(event){
   selector[index].style.display = "block";
 });
-
 document.getElementById('next').addEventListener('click', nextSlide)
 document.getElementById('prev').addEventListener('click', prevSlide)
 document.getElementById('dotOne').addEventListener('click', firstDot)
